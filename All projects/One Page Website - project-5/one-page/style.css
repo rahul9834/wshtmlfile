@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	background: url("images/waves_.jpg");
+background-size: cover;
+}
+
+.main{
+	width: 1000px;
+	margin: auto;
+	border: 5px solid red;
+}
+.row1{
+	width: 1000px;
+	height: 650px;
+	background: url("images/headerbg.jpg") fixed;
+	background-size: cover;
+	border-bottom: 10px solid blue;
+}
+
+.row1Trans{
+	width: 1000px;
+	height: 650px;
+	background:rgba(0,0,0,0.5);
+}
+
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 300px;
+	padding: 30px 0px;
+}
+
+.tagline{
+	width: 400px;
+	font-size: 34px;
+	margin: auto;
+	text-align: center;
+	border-top: 2px solid blue;
+	margin-top: 50px;
+	border-bottom: 2px solid blue;
+	line-height: 50px;
+	font-family: arial;
+	color: white;
+	padding: 30px 0px;
+}
+.menu{
+	text-align: center;
+	padding-top: 30px;
+}
+.menu ul li{
+	padding: 15px;
+	display: inline-block;
+	border-right: 1px solid #fff;
+}
+.menu ul li:last-child{
+	border: none;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.row2{
+	width: 1000px;
+	height: 850px;
+	background: url("images/3.jpg") fixed; 
+	background-size: cover;
+}
+.heading{
+	width: 1000px;
+	height: 300px;
+	background: rgba(0, 0, 0,0.5);
+}
+.content{
+	width: 1000px;
+	height: 550px;
+	background: white;
+
+}
+.headingin{
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	padding: 10px 0px;
+	border: 5px solid white;
+	color: white;
+}

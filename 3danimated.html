@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Effect Full Width Website</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      perspective: 1200px; /* Adding perspective to create 3D effect */
+      overflow: hidden;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transform: translate(-50%, -50%) rotateX(360deg) rotateY(180deg);
+      transition: transform 1s ease-out;
+    }
+
+    .content:hover {
+      transform: translate(-50%, -50%) rotateX(360deg) rotateY(360deg);
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, #f06, #4a90e2);
+      z-index: -1; /* To place the background behind the content */
+    }
+
+    .text {
+      color: white;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      position: relative;
+      z-index: 1;
+    }
+
+    .button {
+      background-color: #fff;
+      color: #333;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .button:hover {
+      transform: scale(0.0);
+    }
+    .font
+    {
+      font-family:sans-serif;
+      font-style: italic;
+      font: 30px;
+      color:white;
+      font-family: cursive;
+  text-shadow: 51px 46px 3px rgba(2,2,6,0.7);
+
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="background"></div>
+    <div class="content">
+      <div class="text">
+        <h1 class="font">Sah Plastic febrication</h1>
+        <button class="button">Hover Me</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

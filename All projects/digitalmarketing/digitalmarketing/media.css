@@ -1,0 +1,81 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+    .oneh{
+        box-shadow: 0px 2px 10px 0px #ccc;
+    }
+    .fix1{
+        background: var(--gradient, linear-gradient(115deg, #d7e9ee 0%, #2699FB 100%));
+        
+    }
+    .fix2{
+        background: var(--gradient, linear-gradient(115deg, #0ACEFE 0%, #2699FB 100%));
+        color: white;
+    }
+    .fixc{
+        bottom: 0%;
+        z-index: 9999;
+    }
+    .op2::before{
+        display: none;
+
+
+    }
+    .op1 h1{
+        font-size: 50px;
+    }
+    .op1 h1 span{
+        font-size: 50px;
+    }
+    .imgvector{
+        display: none;
+    }
+    .opbtn1{
+        padding: 10px 20px;
+        font-size: 12px;
+       
+    }
+    .opbtn2{
+        padding: 8px 20px;
+        font-size: 12px;
+
+       
+    }
+    
+
+}
+@media only screen and (min-width:568px) and (max-width:1199px){
+    .oneh{
+        box-shadow: 0px 2px 10px 0px #ccc;
+    }
+    .fix1{
+        background: var(--gradient, linear-gradient(115deg, #d7e9ee 0%, #2699FB 100%));
+        
+    }
+    .fix2{
+        background: var(--gradient, linear-gradient(115deg, #0ACEFE 0%, #2699FB 100%));
+        color: white;
+    }
+    .fixc{
+        bottom: 0%;
+        z-index: 9999;
+    }
+    .op2::before{
+        display: none;
+
+
+    }
+    .imgvector{
+        display: none;
+    }
+    .opbtn1{
+        padding: 10px 20px;
+        font-size: 12px;
+       
+    }
+    .opbtn2{
+        padding: 8px 20px;
+        font-size: 12px;
+
+       
+    }
+
+}

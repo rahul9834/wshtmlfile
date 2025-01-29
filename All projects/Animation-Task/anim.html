@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            animation: box 4s infinite ease-in-out alternate;
+        }
+        @keyframes box {
+            0%{
+                transform: translate(0,0);
+            }
+            25%{
+                transform: translate(400px,0);
+            }
+            50%{
+                transform: translate(400px,350px);
+
+            }
+            75%
+            {
+                transform: translate(0,350px);
+
+            }
+            100%{
+                transform: translate(0,0);
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

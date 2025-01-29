@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.main
+		{
+			width: 800px;
+			height: 500px;
+			margin: auto;
+			border: 1px solid black;
+		}
+		.image
+		{
+			width:200px;
+			height:150px;
+			float: left;
+			border: 1px solid red;
+			margin-left: 15px;
+		}
+		.show_image
+		{
+			border:1px solid black;
+			width: 500px;
+			height: 400px;
+			left: 400px;
+			position:absolute;
+			top:400px;
+			//display: none;
+
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="show_image">
+		<img src="images/imag1.jpg" width="100%">
+	</div>
+<div class="main">
+	<div class="image">
+		<img src="images/imag1.jpg" width="200px" height="150px">
+
+</div>
+<div class="image">
+		<img src="images/img2.jpg"width="200px"height="150px">
+		
+</div>
+<div class="image">
+		<img src="images/imag1.jpg" width="200px" height="150px">
+		
+</div>
+<div class="image">
+		<img src="images/imag1.jpg" width="200px" height="150px">
+		
+</div>
+<div class="image">
+		<img src="images/img2.jpg"width="200px" height="150px">
+		
+</div>
+
+</div>
+</body>
+<script>
+var main=document.querySelector('.main');
+var image=document.querySelector('.image');
+var show_imagee=document.querySelector('.show_image');
+var show_image=document.querySelector('.show_image img')
+//console.log(show_image);
+main.addEventListener('click',(e)=>{
+
+
+image_target=e.target.src;
+//console.log(image_target);
+
+show_image.src=image_target;
+//console.log(image_target);
+
+
+})
+
+</script>
+</html>
